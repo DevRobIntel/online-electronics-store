@@ -1,0 +1,61 @@
+/* styles/theme.css */
+
+:root {
+  --primary-color: #00cc00; /* Green color */
+  --secondary-color: #ffffff; /* White color */
+  --text-color: #000000; /* Black color */
+}
+
+body {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif; /* Specify a fallback font family */
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+}
+
+.navbar {
+  background-color: var(--primary-color);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 16px; /* Increase font size for better visibility */
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input[type="text"] {
+  padding: 8px; /* Increase padding for better input field appearance */
+  margin-right: 10px;
+  border: 1px solid #ccc; /* Add a border for better input field visibility */
+  border-radius: 4px; /* Add border-radius for rounded corners */
+}
+
+.search button {
+  padding: 8px 12px; /* Increase padding for better button appearance */
+  background-color: var(--secondary-color);
+  border: none;
+  cursor: pointer;
+  border-radius: 4px; /* Add border-radius for rounded corners */
+  transition: background-color 0.3s ease; /* Add transition effect for smoother hover */
+}
+
+.search button:hover {
+  background-color: #e0e0e0; /* Change background color on hover for better feedback */
+}
+
+/* Add more styles for other components */

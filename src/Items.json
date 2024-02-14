@@ -1,0 +1,25 @@
+{
+    "items": {
+      "bootstrap": [
+        {
+          "id": 1,
+          "title": "Bootstrap Carousel Example",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod consectetur at quam dolore praesentium neque eos assumenda iusto nam laborum laboriosam odio blanditiis possimus accusantium recusandae porro exercitationem itaque",
+          "imageUrl": "https://example.com/image1.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Bootstrap Carousel Example 2",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod consectetur at quam dolore praesentium neque eos assumenda iusto nam laborum laboriosam odio blanditiis possimus accusantium recusandae porro exercitationem itaque",
+          "imageUrl": "https://example.com/image2.jpg"
+        }
+      ],
+      "elastic": [
+        
+      ],
+      "responsive": [
+
+      ]
+    }
+  }
+  

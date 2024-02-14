@@ -1,0 +1,33 @@
+/* CollectionSection.module.css */
+
+.collectionSection {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .collectionItem {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .collectionItem img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .collectionItem h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .collectionItem p {
+    margin: 0;
+    padding: 0 10px 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  

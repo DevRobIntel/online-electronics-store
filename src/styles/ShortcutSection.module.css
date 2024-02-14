@@ -1,0 +1,25 @@
+/* ShortcutSection.module.css */
+
+.shortcutSection {
+    margin-top: 20px;
+  }
+  
+  .shortcutSection ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .shortcutSection li {
+    margin-bottom: 10px;
+  }
+  
+  .shortcutSection a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .shortcutSection a:hover {
+    text-decoration: underline;
+  }
+  

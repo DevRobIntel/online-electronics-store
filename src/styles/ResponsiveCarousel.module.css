@@ -1,0 +1,41 @@
+/* ResponsiveCarousel.module.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .mySwiper {
+    margin-top: 20px;
+  }
+  
+  .swipItem {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .imgBox {
+    max-width: 100%;
+  }
+  
+  .imgBox img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .detail {
+    padding: 20px;
+  }
+  
+  .detail h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .detail p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
